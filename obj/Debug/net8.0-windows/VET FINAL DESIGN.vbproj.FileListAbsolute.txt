@@ -1,0 +1,23 @@
+C:\Users\ACER\Downloads\VetNom\VetClinic-CASE-STUDY-master\VetClinic-CASE-STUDY-master\VetClinic Design\bin\Debug\net8.0-windows\VET FINAL DESIGN.exe
+C:\Users\ACER\Downloads\VetNom\VetClinic-CASE-STUDY-master\VetClinic-CASE-STUDY-master\VetClinic Design\bin\Debug\net8.0-windows\VET FINAL DESIGN.deps.json
+C:\Users\ACER\Downloads\VetNom\VetClinic-CASE-STUDY-master\VetClinic-CASE-STUDY-master\VetClinic Design\bin\Debug\net8.0-windows\VET FINAL DESIGN.runtimeconfig.json
+C:\Users\ACER\Downloads\VetNom\VetClinic-CASE-STUDY-master\VetClinic-CASE-STUDY-master\VetClinic Design\bin\Debug\net8.0-windows\VET FINAL DESIGN.dll
+C:\Users\ACER\Downloads\VetNom\VetClinic-CASE-STUDY-master\VetClinic-CASE-STUDY-master\VetClinic Design\bin\Debug\net8.0-windows\VET FINAL DESIGN.pdb
+C:\Users\ACER\Downloads\VetNom\VetClinic-CASE-STUDY-master\VetClinic-CASE-STUDY-master\VetClinic Design\obj\Debug\net8.0-windows\VetClinic_Design.Appointment.resources
+C:\Users\ACER\Downloads\VetNom\VetClinic-CASE-STUDY-master\VetClinic-CASE-STUDY-master\VetClinic Design\obj\Debug\net8.0-windows\VetClinic_Design.Billing.resources
+C:\Users\ACER\Downloads\VetNom\VetClinic-CASE-STUDY-master\VetClinic-CASE-STUDY-master\VetClinic Design\obj\Debug\net8.0-windows\VetClinic_Design.DashBoard.resources
+C:\Users\ACER\Downloads\VetNom\VetClinic-CASE-STUDY-master\VetClinic-CASE-STUDY-master\VetClinic Design\obj\Debug\net8.0-windows\VetClinic_Design.Login.resources
+C:\Users\ACER\Downloads\VetNom\VetClinic-CASE-STUDY-master\VetClinic-CASE-STUDY-master\VetClinic Design\obj\Debug\net8.0-windows\VetClinic_Design.Main.resources
+C:\Users\ACER\Downloads\VetNom\VetClinic-CASE-STUDY-master\VetClinic-CASE-STUDY-master\VetClinic Design\obj\Debug\net8.0-windows\VetClinic_Design.Resources.resources
+C:\Users\ACER\Downloads\VetNom\VetClinic-CASE-STUDY-master\VetClinic-CASE-STUDY-master\VetClinic Design\obj\Debug\net8.0-windows\VetClinic_Design.PetOwners.resources
+C:\Users\ACER\Downloads\VetNom\VetClinic-CASE-STUDY-master\VetClinic-CASE-STUDY-master\VetClinic Design\obj\Debug\net8.0-windows\VetClinic_Design.Pets.resources
+C:\Users\ACER\Downloads\VetNom\VetClinic-CASE-STUDY-master\VetClinic-CASE-STUDY-master\VetClinic Design\obj\Debug\net8.0-windows\VET FINAL DESIGN.vbproj.GenerateResource.cache
+C:\Users\ACER\Downloads\VetNom\VetClinic-CASE-STUDY-master\VetClinic-CASE-STUDY-master\VetClinic Design\obj\Debug\net8.0-windows\VET FINAL DESIGN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Downloads\VetNom\VetClinic-CASE-STUDY-master\VetClinic-CASE-STUDY-master\VetClinic Design\obj\Debug\net8.0-windows\VET FINAL DESIGN.AssemblyInfoInputs.cache
+C:\Users\ACER\Downloads\VetNom\VetClinic-CASE-STUDY-master\VetClinic-CASE-STUDY-master\VetClinic Design\obj\Debug\net8.0-windows\VET FINAL DESIGN.AssemblyInfo.vb
+C:\Users\ACER\Downloads\VetNom\VetClinic-CASE-STUDY-master\VetClinic-CASE-STUDY-master\VetClinic Design\obj\Debug\net8.0-windows\VET FINAL DESIGN.vbproj.CoreCompileInputs.cache
+C:\Users\ACER\Downloads\VetNom\VetClinic-CASE-STUDY-master\VetClinic-CASE-STUDY-master\VetClinic Design\obj\Debug\net8.0-windows\VET FINAL DESIGN.dll
+C:\Users\ACER\Downloads\VetNom\VetClinic-CASE-STUDY-master\VetClinic-CASE-STUDY-master\VetClinic Design\obj\Debug\net8.0-windows\refint\VET FINAL DESIGN.dll
+C:\Users\ACER\Downloads\VetNom\VetClinic-CASE-STUDY-master\VetClinic-CASE-STUDY-master\VetClinic Design\obj\Debug\net8.0-windows\VET FINAL DESIGN.pdb
+C:\Users\ACER\Downloads\VetNom\VetClinic-CASE-STUDY-master\VetClinic-CASE-STUDY-master\VetClinic Design\obj\Debug\net8.0-windows\VET FINAL DESIGN.genruntimeconfig.cache
+C:\Users\ACER\Downloads\VetNom\VetClinic-CASE-STUDY-master\VetClinic-CASE-STUDY-master\VetClinic Design\obj\Debug\net8.0-windows\ref\VET FINAL DESIGN.dll
