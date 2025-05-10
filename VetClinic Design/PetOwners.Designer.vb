@@ -22,61 +22,63 @@ Partial Class PetOwners
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Button1 = New Button()
-        Button5 = New Button()
+        btnDelete = New Button()
+        btnUpdate = New Button()
         Label10 = New Label()
         ComboBox1 = New ComboBox()
-        TextBox1 = New TextBox()
-        DataGridView1 = New DataGridView()
+        txtSearch = New TextBox()
+        dgvOwnersdetails = New DataGridView()
         Panel1 = New Panel()
+        txtID = New TextBox()
+        txtsexBind = New TextBox()
         PictureBox1 = New PictureBox()
-        TextBox6 = New TextBox()
+        txtContact = New TextBox()
         Label1 = New Label()
-        TextBox5 = New TextBox()
+        txtPetName = New TextBox()
         Label7 = New Label()
-        Button12 = New Button()
-        ComboBox2 = New ComboBox()
+        btnAdd = New Button()
+        cmbPetType = New ComboBox()
         Label4 = New Label()
-        TextBox3 = New TextBox()
+        txtAddress = New TextBox()
         Label3 = New Label()
         Label2 = New Label()
-        RadioButton2 = New RadioButton()
-        RadioButton1 = New RadioButton()
-        TextBox2 = New TextBox()
+        radFemale = New RadioButton()
+        radMale = New RadioButton()
+        txtAge = New TextBox()
         Label5 = New Label()
-        TextBox4 = New TextBox()
+        txtName = New TextBox()
         Username = New Label()
         Label6 = New Label()
-        CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(dgvOwnersdetails, ComponentModel.ISupportInitialize).BeginInit()
         Panel1.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
-        ' Button1
+        ' btnDelete
         ' 
-        Button1.Font = New Font("Sitka Display", 11.249999F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button1.ForeColor = SystemColors.ControlLightLight
-        Button1.Image = My.Resources.Resources._1e4477_solid_color_background_icolorpalette
-        Button1.Location = New Point(987, 523)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(99, 30)
-        Button1.TabIndex = 77
-        Button1.Text = "View"
-        Button1.UseVisualStyleBackColor = True
-        Button1.UseWaitCursor = True
+        btnDelete.Font = New Font("Sitka Display", 11.249999F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnDelete.ForeColor = SystemColors.ControlLightLight
+        btnDelete.Image = My.Resources.Resources._1e4477_solid_color_background_icolorpalette
+        btnDelete.Location = New Point(987, 523)
+        btnDelete.Name = "btnDelete"
+        btnDelete.Size = New Size(99, 30)
+        btnDelete.TabIndex = 77
+        btnDelete.Text = "Delete"
+        btnDelete.UseVisualStyleBackColor = True
+        btnDelete.UseWaitCursor = True
         ' 
-        ' Button5
+        ' btnUpdate
         ' 
-        Button5.Font = New Font("Sitka Display", 11.249999F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button5.ForeColor = SystemColors.ControlLightLight
-        Button5.Image = My.Resources.Resources._1e4477_solid_color_background_icolorpalette
-        Button5.Location = New Point(882, 523)
-        Button5.Name = "Button5"
-        Button5.Size = New Size(99, 30)
-        Button5.TabIndex = 76
-        Button5.Text = "Edit"
-        Button5.UseVisualStyleBackColor = True
-        Button5.UseWaitCursor = True
+        btnUpdate.Font = New Font("Sitka Display", 11.249999F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnUpdate.ForeColor = SystemColors.ControlLightLight
+        btnUpdate.Image = My.Resources.Resources._1e4477_solid_color_background_icolorpalette
+        btnUpdate.Location = New Point(882, 523)
+        btnUpdate.Name = "btnUpdate"
+        btnUpdate.Size = New Size(99, 30)
+        btnUpdate.TabIndex = 76
+        btnUpdate.Text = "Update"
+        btnUpdate.UseVisualStyleBackColor = True
+        btnUpdate.UseWaitCursor = True
         ' 
         ' Label10
         ' 
@@ -95,51 +97,54 @@ Partial Class PetOwners
         ' ComboBox1
         ' 
         ComboBox1.FormattingEnabled = True
+        ComboBox1.Items.AddRange(New Object() {"Feline", "Reptile", "Canine"})
         ComboBox1.Location = New Point(970, 72)
         ComboBox1.Name = "ComboBox1"
         ComboBox1.Size = New Size(116, 23)
         ComboBox1.TabIndex = 74
-        ComboBox1.Text = "Feline"
+        ComboBox1.Text = "Type"
         ComboBox1.UseWaitCursor = True
         ' 
-        ' TextBox1
+        ' txtSearch
         ' 
-        TextBox1.Location = New Point(691, 71)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(273, 23)
-        TextBox1.TabIndex = 73
-        TextBox1.Text = "Search..."
-        TextBox1.UseWaitCursor = True
+        txtSearch.Location = New Point(691, 71)
+        txtSearch.Name = "txtSearch"
+        txtSearch.Size = New Size(273, 23)
+        txtSearch.TabIndex = 73
+        txtSearch.Text = "Search..."
+        txtSearch.UseWaitCursor = True
         ' 
-        ' DataGridView1
+        ' dgvOwnersdetails
         ' 
-        DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView1.Location = New Point(412, 105)
-        DataGridView1.Name = "DataGridView1"
-        DataGridView1.Size = New Size(674, 412)
-        DataGridView1.TabIndex = 72
-        DataGridView1.UseWaitCursor = True
+        dgvOwnersdetails.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        dgvOwnersdetails.Location = New Point(412, 105)
+        dgvOwnersdetails.Name = "dgvOwnersdetails"
+        dgvOwnersdetails.Size = New Size(674, 412)
+        dgvOwnersdetails.TabIndex = 72
+        dgvOwnersdetails.UseWaitCursor = True
         ' 
         ' Panel1
         ' 
         Panel1.BackgroundImage = My.Resources.Resources.images10
         Panel1.BackgroundImageLayout = ImageLayout.Stretch
+        Panel1.Controls.Add(txtID)
+        Panel1.Controls.Add(txtsexBind)
         Panel1.Controls.Add(PictureBox1)
-        Panel1.Controls.Add(TextBox6)
+        Panel1.Controls.Add(txtContact)
         Panel1.Controls.Add(Label1)
-        Panel1.Controls.Add(TextBox5)
+        Panel1.Controls.Add(txtPetName)
         Panel1.Controls.Add(Label7)
-        Panel1.Controls.Add(Button12)
-        Panel1.Controls.Add(ComboBox2)
+        Panel1.Controls.Add(btnAdd)
+        Panel1.Controls.Add(cmbPetType)
         Panel1.Controls.Add(Label4)
-        Panel1.Controls.Add(TextBox3)
+        Panel1.Controls.Add(txtAddress)
         Panel1.Controls.Add(Label3)
         Panel1.Controls.Add(Label2)
-        Panel1.Controls.Add(RadioButton2)
-        Panel1.Controls.Add(RadioButton1)
-        Panel1.Controls.Add(TextBox2)
+        Panel1.Controls.Add(radFemale)
+        Panel1.Controls.Add(radMale)
+        Panel1.Controls.Add(txtAge)
         Panel1.Controls.Add(Label5)
-        Panel1.Controls.Add(TextBox4)
+        Panel1.Controls.Add(txtName)
         Panel1.Controls.Add(Username)
         Panel1.Controls.Add(Label6)
         Panel1.Dock = DockStyle.Left
@@ -147,6 +152,22 @@ Partial Class PetOwners
         Panel1.Name = "Panel1"
         Panel1.Size = New Size(383, 595)
         Panel1.TabIndex = 78
+        ' 
+        ' txtID
+        ' 
+        txtID.Location = New Point(80, 25)
+        txtID.Name = "txtID"
+        txtID.Size = New Size(59, 23)
+        txtID.TabIndex = 106
+        txtID.UseWaitCursor = True
+        ' 
+        ' txtsexBind
+        ' 
+        txtsexBind.Location = New Point(334, 572)
+        txtsexBind.Name = "txtsexBind"
+        txtsexBind.Size = New Size(59, 23)
+        txtsexBind.TabIndex = 103
+        txtsexBind.UseWaitCursor = True
         ' 
         ' PictureBox1
         ' 
@@ -159,13 +180,13 @@ Partial Class PetOwners
         PictureBox1.TabIndex = 102
         PictureBox1.TabStop = False
         ' 
-        ' TextBox6
+        ' txtContact
         ' 
-        TextBox6.Location = New Point(143, 264)
-        TextBox6.Name = "TextBox6"
-        TextBox6.Size = New Size(185, 23)
-        TextBox6.TabIndex = 101
-        TextBox6.UseWaitCursor = True
+        txtContact.Location = New Point(143, 264)
+        txtContact.Name = "txtContact"
+        txtContact.Size = New Size(185, 23)
+        txtContact.TabIndex = 101
+        txtContact.UseWaitCursor = True
         ' 
         ' Label1
         ' 
@@ -180,13 +201,13 @@ Partial Class PetOwners
         Label1.Text = "Contact #"
         Label1.UseWaitCursor = True
         ' 
-        ' TextBox5
+        ' txtPetName
         ' 
-        TextBox5.Location = New Point(144, 347)
-        TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(185, 23)
-        TextBox5.TabIndex = 99
-        TextBox5.UseWaitCursor = True
+        txtPetName.Location = New Point(144, 347)
+        txtPetName.Name = "txtPetName"
+        txtPetName.Size = New Size(185, 23)
+        txtPetName.TabIndex = 99
+        txtPetName.UseWaitCursor = True
         ' 
         ' Label7
         ' 
@@ -201,28 +222,28 @@ Partial Class PetOwners
         Label7.Text = "Pet Type:"
         Label7.UseWaitCursor = True
         ' 
-        ' Button12
+        ' btnAdd
         ' 
-        Button12.BackgroundImage = My.Resources.Resources._1e4477_solid_color_background_icolorpalette
-        Button12.Font = New Font("Sitka Display", 11.249999F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button12.ForeColor = SystemColors.ControlLightLight
-        Button12.Location = New Point(22, 447)
-        Button12.Name = "Button12"
-        Button12.Size = New Size(319, 39)
-        Button12.TabIndex = 97
-        Button12.Text = "Add"
-        Button12.UseVisualStyleBackColor = True
-        Button12.UseWaitCursor = True
+        btnAdd.BackgroundImage = My.Resources.Resources._1e4477_solid_color_background_icolorpalette
+        btnAdd.Font = New Font("Sitka Display", 11.249999F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnAdd.ForeColor = SystemColors.ControlLightLight
+        btnAdd.Location = New Point(22, 447)
+        btnAdd.Name = "btnAdd"
+        btnAdd.Size = New Size(319, 39)
+        btnAdd.TabIndex = 97
+        btnAdd.Text = "Add"
+        btnAdd.UseVisualStyleBackColor = True
+        btnAdd.UseWaitCursor = True
         ' 
-        ' ComboBox2
+        ' cmbPetType
         ' 
-        ComboBox2.FormattingEnabled = True
-        ComboBox2.Location = New Point(144, 392)
-        ComboBox2.Name = "ComboBox2"
-        ComboBox2.Size = New Size(102, 23)
-        ComboBox2.TabIndex = 96
-        ComboBox2.Text = "Fetile"
-        ComboBox2.UseWaitCursor = True
+        cmbPetType.FormattingEnabled = True
+        cmbPetType.Items.AddRange(New Object() {"Feline", "Reptile", "Canine"})
+        cmbPetType.Location = New Point(144, 392)
+        cmbPetType.Name = "cmbPetType"
+        cmbPetType.Size = New Size(102, 23)
+        cmbPetType.TabIndex = 96
+        cmbPetType.UseWaitCursor = True
         ' 
         ' Label4
         ' 
@@ -237,13 +258,13 @@ Partial Class PetOwners
         Label4.Text = "Pet Name:"
         Label4.UseWaitCursor = True
         ' 
-        ' TextBox3
+        ' txtAddress
         ' 
-        TextBox3.Location = New Point(144, 301)
-        TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(185, 23)
-        TextBox3.TabIndex = 94
-        TextBox3.UseWaitCursor = True
+        txtAddress.Location = New Point(144, 301)
+        txtAddress.Name = "txtAddress"
+        txtAddress.Size = New Size(185, 23)
+        txtAddress.TabIndex = 94
+        txtAddress.UseWaitCursor = True
         ' 
         ' Label3
         ' 
@@ -271,43 +292,43 @@ Partial Class PetOwners
         Label2.Text = "Sex:"
         Label2.UseWaitCursor = True
         ' 
-        ' RadioButton2
+        ' radFemale
         ' 
-        RadioButton2.AutoSize = True
-        RadioButton2.BackColor = Color.Transparent
-        RadioButton2.Font = New Font("Sitka Heading", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        RadioButton2.ForeColor = SystemColors.ControlLightLight
-        RadioButton2.Location = New Point(231, 228)
-        RadioButton2.Name = "RadioButton2"
-        RadioButton2.Size = New Size(75, 27)
-        RadioButton2.TabIndex = 91
-        RadioButton2.TabStop = True
-        RadioButton2.Text = "Female"
-        RadioButton2.UseVisualStyleBackColor = False
-        RadioButton2.UseWaitCursor = True
+        radFemale.AutoSize = True
+        radFemale.BackColor = Color.Transparent
+        radFemale.Font = New Font("Sitka Heading", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        radFemale.ForeColor = SystemColors.ControlLightLight
+        radFemale.Location = New Point(231, 228)
+        radFemale.Name = "radFemale"
+        radFemale.Size = New Size(75, 27)
+        radFemale.TabIndex = 91
+        radFemale.TabStop = True
+        radFemale.Text = "Female"
+        radFemale.UseVisualStyleBackColor = False
+        radFemale.UseWaitCursor = True
         ' 
-        ' RadioButton1
+        ' radMale
         ' 
-        RadioButton1.AutoSize = True
-        RadioButton1.BackColor = Color.Transparent
-        RadioButton1.Font = New Font("Sitka Heading", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        RadioButton1.ForeColor = SystemColors.ControlLightLight
-        RadioButton1.Location = New Point(144, 228)
-        RadioButton1.Name = "RadioButton1"
-        RadioButton1.Size = New Size(60, 27)
-        RadioButton1.TabIndex = 90
-        RadioButton1.TabStop = True
-        RadioButton1.Text = "Male"
-        RadioButton1.UseVisualStyleBackColor = False
-        RadioButton1.UseWaitCursor = True
+        radMale.AutoSize = True
+        radMale.BackColor = Color.Transparent
+        radMale.Font = New Font("Sitka Heading", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        radMale.ForeColor = SystemColors.ControlLightLight
+        radMale.Location = New Point(144, 228)
+        radMale.Name = "radMale"
+        radMale.Size = New Size(60, 27)
+        radMale.TabIndex = 90
+        radMale.TabStop = True
+        radMale.Text = "Male"
+        radMale.UseVisualStyleBackColor = False
+        radMale.UseWaitCursor = True
         ' 
-        ' TextBox2
+        ' txtAge
         ' 
-        TextBox2.Location = New Point(144, 190)
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(59, 23)
-        TextBox2.TabIndex = 89
-        TextBox2.UseWaitCursor = True
+        txtAge.Location = New Point(144, 190)
+        txtAge.Name = "txtAge"
+        txtAge.Size = New Size(59, 23)
+        txtAge.TabIndex = 89
+        txtAge.UseWaitCursor = True
         ' 
         ' Label5
         ' 
@@ -322,13 +343,13 @@ Partial Class PetOwners
         Label5.Text = "Age:"
         Label5.UseWaitCursor = True
         ' 
-        ' TextBox4
+        ' txtName
         ' 
-        TextBox4.Location = New Point(144, 154)
-        TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(185, 23)
-        TextBox4.TabIndex = 87
-        TextBox4.UseWaitCursor = True
+        txtName.Location = New Point(144, 154)
+        txtName.Name = "txtName"
+        txtName.Size = New Size(185, 23)
+        txtName.TabIndex = 87
+        txtName.UseWaitCursor = True
         ' 
         ' Username
         ' 
@@ -365,45 +386,47 @@ Partial Class PetOwners
         BackgroundImageLayout = ImageLayout.Stretch
         ClientSize = New Size(1183, 595)
         Controls.Add(Panel1)
-        Controls.Add(Button1)
-        Controls.Add(Button5)
+        Controls.Add(btnDelete)
+        Controls.Add(btnUpdate)
         Controls.Add(Label10)
         Controls.Add(ComboBox1)
-        Controls.Add(TextBox1)
-        Controls.Add(DataGridView1)
+        Controls.Add(txtSearch)
+        Controls.Add(dgvOwnersdetails)
         FormBorderStyle = FormBorderStyle.None
         Name = "PetOwners"
         Text = "PetOwners"
-        CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
+        CType(dgvOwnersdetails, ComponentModel.ISupportInitialize).EndInit()
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button5 As Button
+    Friend WithEvents btnDelete As Button
+    Friend WithEvents btnUpdate As Button
     Friend WithEvents Label10 As Label
     Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents txtSearch As TextBox
+    Friend WithEvents dgvOwnersdetails As DataGridView
     Friend WithEvents Panel1 As Panel
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents txtContact As TextBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents txtPetName As TextBox
     Friend WithEvents Label7 As Label
-    Friend WithEvents Button12 As Button
-    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents btnAdd As Button
+    Friend WithEvents cmbPetType As ComboBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents txtAddress As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents RadioButton1 As RadioButton
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents radFemale As RadioButton
+    Friend WithEvents radMale As RadioButton
+    Friend WithEvents txtAge As TextBox
     Friend WithEvents Label5 As Label
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents txtName As TextBox
     Friend WithEvents Username As Label
     Friend WithEvents Label6 As Label
+    Friend WithEvents txtsexBind As TextBox
+    Friend WithEvents txtID As TextBox
 End Class
